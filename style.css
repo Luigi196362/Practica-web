@@ -1,0 +1,111 @@
+body{
+background-color: lightblue;
+    margin: 0%;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 20%;
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    animation: boton  .5s forwards;
+}
+.video{
+    background-color: red;
+    justify-content: center;
+    display: flex;
+}
+.info{
+    margin-top: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-img{
+    width: 20%;
+}
+
+.tarjeta{
+    
+    background-color: orange;
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarjeta-img{
+    
+}
+
+.tarjeta-img:hover{
+    animation: animacion  .5s forwards;
+}
+
+.tarjeta-container{
+    margin-top: 1000px;
+    
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+margin-right: 10px;
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto{
+    width: 45%;
+    color: white;
+    background-color: blueviolet;
+}
+
+.redes{
+ 
+    width: 45%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+.red{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;    
+}
+@keyframes animacion {
+    0%{
+
+    }
+    
+    100%{
+        transform: scale(1.1);
+    }
+}
+@keyframes boton {
+    0%{
+
+    }
+    
+    100%{
+        transform: scale(1.1);
+    }
+}
